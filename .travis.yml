@@ -6,3 +6,6 @@ install:
 - ./Scripts/install-unity.sh
 script:
 - ./Scripts/build.sh
+cache:
+  directories:
+    - unity_download_cache
