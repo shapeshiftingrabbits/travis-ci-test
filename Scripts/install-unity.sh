@@ -8,7 +8,7 @@ VERSION=2018.2.13f1
 
 UNITY_LINUX_TARGET_PACKAGE="MacEditorTargetInstaller/UnitySetup-Linux-Support-for-Editor-$VERSION.pkg"
 UNITY_OSX_PACKAGE="MacEditorInstaller/Unity-$VERSION.pkg"
-UNITY_WINDOWS_TARGET_PACKAGE="MacEditorTargetInstaller/UnitySetup-Windows-Support-for-Editor-$VERSION.pkg"
+UNITY_WINDOWS_TARGET_PACKAGE="MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-$VERSION.pkg"
 
 UNITY_DOWNLOAD_CACHE="unity_download_cache"
 
