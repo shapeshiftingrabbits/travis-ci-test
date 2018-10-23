@@ -6,7 +6,7 @@ before_install:
 install:
 - ./Scripts/install-unity.sh
 script:
-- travis_wait ./Scripts/build.sh
+- ./Scripts/build.sh
 cache:
   directories:
     - unity_download_cache
