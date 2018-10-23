@@ -3,8 +3,8 @@
 # See $BASE_URL/$HASH/unity-$VERSION-$PLATFORM.ini for complete list
 # of available packages, where PLATFORM is `osx` or `win`
 BASE_URL=https://beta.unity3d.com/download
-HASH=83fbdcd35118
-VERSION=2018.2.13f1
+HASH=4cb482063d12
+VERSION=2018.1.7f1
 
 UNITY_LINUX_TARGET_PACKAGE="MacEditorTargetInstaller/UnitySetup-Linux-Support-for-Editor-$VERSION.pkg"
 UNITY_OSX_PACKAGE="MacEditorInstaller/Unity-$VERSION.pkg"
