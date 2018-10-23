@@ -18,10 +18,10 @@ download() {
 
   #download package if it does not already exist in cache
   if [ ! -e $UNITY_DOWNLOAD_CACHE/`basename "$FILE"` ] ; then
-    echo "$FILE does not exist. Downloading from $URL: "
+    echo "Cached copy of $FILE does not exist. Downloading from $URL: "
     curl -o $UNITY_DOWNLOAD_CACHE/`basename "$FILE"` "$URL"
   else
-    echo "$FILE Exists. Skipping download."
+    echo "Cached copy of $FILE Exists. Skipping download."
   fi
 }
 
